@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(255, 227, 236);
+}
+.container{
+    background-color: white;
+    width: 60%;
+    max-height: 1560px;
+    margin:20%;
+    margin-top: -4%;
+}
+.logo{
+    display: flex;
+    margin-left: 40%;
+}
+.topo{
+    background-color: rgb(255, 147, 153);
+    width: 98%;
+    text-align: center;
+    height: 20px;
+    color: white;
+    font-size: 120%;
+    padding: 1%;
+}
+
+.produto p{
+    background-color: rgb(255, 189, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3px 10px;
+    text-align: center;  
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.produto{
+    border: 1px solid rgb(253, 152, 152);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.produto p:hover, p:active{
+    background-color: rgb(255, 163, 163);
+}
+.baixo{
+    background-color: rgb(255, 147, 153);
+    width: 100%;
+    height: 22px;
+}
+.produto h4{
+    text-align: center;  
+}
+.menu{
+    padding-top: 30px;
+    width: 100%;
+    text-align: right;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+a:link, a:visited{
+    background-color: #ee8b84;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    font-size: 85%;
+}
